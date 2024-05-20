@@ -13,7 +13,6 @@ win.geometry('300x200')
 
 color_lbl = Label(win, text='', bg='black', width=30)
 color_lbl.grid(row=0, column=0, columnspan=2)
-
 red_lbl = Label(win, text='Red')
 green_lbl = Label(win, text='Green')
 blue_lbl = Label(win, text='Blue')

@@ -1,0 +1,11 @@
+punctuations='''!()-{}:;. '"\,<>>/?@#$%^&*_~'''
+s1 = '[my_python@gmail.com]'
+s2 = ''
+for x in s1:
+    if x not in punctuations:
+        s2 = s2+x
+print(s2)
+
+
+str = 'hi everyone'
+print(str.center(2,'*'))
